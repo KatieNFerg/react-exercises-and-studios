@@ -1,8 +1,23 @@
-function HobbyLinks(){
-    let hobbyLinks = ["hiking", "horseback riding"];
+import classes from "./HobbyLinks.module.css";
 
-    return (
-        <a href = {hobbyLinks[0]}>"https://hobbycents.com/hobby-guides/hiking-hobby-guide/"</a>
-        <a href = {hobbyLinks[1]}>"https://www.annmariejohn.com/why-horse-riding-is-excellent-hobby"</a>
-    )
+export default function HobbyLinks() {
+  let hobbyLinks = [
+    "https://hobbycents.com/hobby-guides/hiking-hobby-guide/",
+    "https://www.annmariejohn.com/why-horse-riding-is-excellent-hobby",
+  ];
+
+  return (
+    <div>
+      <h3 className={classes.hobbyHeader}>My Hobbies</h3>
+      <p className={classes.hobbyText}>
+        <a href={hobbyLinks[0]} target="blank">
+          Hiking
+        </a>
+        <br></br>
+        <a href={hobbyLinks[1]} target="blank">
+          Horseback Riding
+        </a>
+      </p>
+    </div>
+  );
 }
