@@ -1,7 +1,10 @@
 .choresText {
-   color: black;
+   color: darkorchid;
+   font-style: italic;
+   font-family: sans-serif;
 }
 
 .choresHeading {
-   color: black;
+   color: burlywood;
+   text-decoration-line: underline;
 }
