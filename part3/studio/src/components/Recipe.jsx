@@ -1,23 +1,27 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://thecozycook.com/stovetop-mac-and-cheese/";
+   let authorPhoto = "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg";
+   let authorName = "Stephanie Melchione";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Stephanie Melchione" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
-            <a href={authorLink}></a> 
+            <a href={authorLink}>{authorName}</a> 
          </div>
       </div>
    );
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["uncooked macaroni",
+   "butter",
+   "flour",
+   "heavy cream",
+   "milk"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +40,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Stovetop Mac and Cheese</h1>
+            <p>This creamy mac and cheese recipe will be the best quick meal for your family.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +53,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg" alt="Cheesy Mac" className="imageUpdates"/>
    );
 }
 
