@@ -1,0 +1,33 @@
+{ "projects": [
+    { "Name": "Nugget Falls",
+    "Length": "0.8 mile",
+    "Location": "Tongass National Forest, Alaska",
+    "photoURL": "https://www.travelandleisure.com/thmb/tiMVCPTdxOdRyKvpQFw33Z_HUkc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23-mendenhall-glacier-visitor-center-juneau-alaska-BESTHIKE0407-8e96b7d22cfd4a21a0a529fc70f498a6.jpg"
+
+    },
+    {
+        "Name": "Appalachian Trail",
+        "Length": "2190 miles",
+        "Location": "Spans over many states along the East Coast",
+        "photoURL": "https://www.travelandleisure.com/thmb/75m6J3ZRnAMaUacNC_XqN3Vxu8I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20-shenandoah-national-park-virginia-BESTHIKE0407-99fb4086ffe44441928bb28a33583dca.jpg"
+    },
+    {
+        "Name": "Burroughs Mountain Trail",
+        "Length": "8.9 miles",
+        "Location": "Mount Rainier National Park, Washington",
+        "photoURL": "https://www.wta.org/site_images/hikes/3rd-burroughs-to-skyscraper-pass-023.jpg/@@images/3f158921-f63c-435d-89e4-42facce2af79.jpeg"
+    },
+    {
+        "Name": "Halema'uma'u Trail",
+        "Length": "0.8 mile",
+        "Location": "Hawai'i Volcanoes National Park, Hawai'i",
+        "photoURL": "https://www.travelandleisure.com/thmb/I4Srsux2YgTKbDPr5Jdh9ILJMjs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/18-hawaii-volcanoes-national-park-BESTHIKE0407-da44f38a1ac74f278bebf383692c8bf0.jpg"
+    },
+    {
+        "Name": "Billy Goat Trail",
+        "Length": "4.75 miles",
+        "Location": "Chesapeake and Ohio Canal National Historical Park, Maryland",
+        "photoURL": "https://www.travelandleisure.com/thmb/vUBkiHEHnJAHenpiwbWhU3nT7Yo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/15-billy-goat-trail-great-falls-potomac-maryland-BESTHIKE0407-0a089e0e8cd948dca63a4f5e4a6422b3.jpg"
+    }
+]
+}
